@@ -1,3 +1,5 @@
+//http://www.hpcodewars.org/past/cw9/problems/Prob06%20-%20Roman%20Numeral%20Calculator.pdf
+//took around 45 min
 import java.util.*;
 public class RomanCalc
 {
