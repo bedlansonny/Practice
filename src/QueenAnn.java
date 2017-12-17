@@ -1,5 +1,6 @@
 import java.util.*;
-public class Main{
+public class QueenAnn
+{
     public static void main(String[] args)
     {
         Scanner kb = new Scanner(System.in);

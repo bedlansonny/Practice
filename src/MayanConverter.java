@@ -3,7 +3,7 @@
 
 //Plan: convert to Mayan calendar based on days away from Dec 21, 2012
 		//then create a calendar system that will calculate how many days away it is
-
+/*
 import java.util.*;
 import java.io.*;
 
@@ -68,13 +68,13 @@ public class MayanConverter
 }
 
 public class MayanCalendar
-{	
+{
 	int baktun;
 	int katun;
 	int tun;
 	int unial;
 	int kin;
-	
+
 	public MayanCalendar()
 	{
 		baktun = 13;
@@ -83,7 +83,7 @@ public class MayanCalendar
 		unial = 0;
 		kin = 0;
 	}
-	
+
 	public void depleteKin()
 	{
 		if(kin == 0)
@@ -96,7 +96,7 @@ public class MayanCalendar
 			kin--;
 		}
 	}
-	
+
 	public void depleteUnial()
 	{
 		if(unial == 0)
@@ -109,7 +109,7 @@ public class MayanCalendar
 			unial--;
 		}
 	}
-	
+
 	public void depleteTun()
 	{
 		if(tun == 0)
@@ -122,7 +122,7 @@ public class MayanCalendar
 			tun--;
 		}
 	}
-	
+
 	public void depleteKatun()
 	{
 		if(katun == 0)
@@ -135,12 +135,12 @@ public class MayanCalendar
 			katun--;
 		}
 	}
-	
+
 	public void depleteBaktun()
 	{
 		baktun--;
 	}
-	
+
 	public void addKin()
 	{
 		if(kin == 19)
@@ -153,7 +153,7 @@ public class MayanCalendar
 			kin++;
 		}
 	}
-	
+
 	public void addUnial()
 	{
 		if(unial == 17)
@@ -166,7 +166,7 @@ public class MayanCalendar
 			unial++;
 		}
 	}
-	
+
 	public void addTun()
 	{
 		if(tun == 19)
@@ -179,7 +179,7 @@ public class MayanCalendar
 			tun++;
 		}
 	}
-	
+
 	public void addKatun()
 	{
 		if(katun == 19)
@@ -192,17 +192,17 @@ public class MayanCalendar
 			katun++;
 		}
 	}
-	
+
 	public void addBaktun()
 	{
 		baktun++;
 	}
-	
+
 	public String output()
 	{
 		return baktun + "." + katun + "." + tun + "." + unial + "." + kin;
 	}
-	
+
 }
 
 public class Date
@@ -221,7 +221,7 @@ public class Date
 
     	updateMaxDay();
     }
-	
+
 	public boolean comesBefore(Date otherDate)
 	{
 		if(this.year < otherDate.year)
@@ -245,7 +245,7 @@ public class Date
 			}
 		}
 	}
-	
+
 	public static int findDaysBetween(Date d1, Date d2)
 	{
 		int dayCount = 0;
@@ -254,10 +254,10 @@ public class Date
 			d1.incDay();
 			dayCount++;
 		}
-		
+
 		return dayCount;
 	}
-	
+
 	public static int monthToNum(String mth)
 	{
 		switch(mth)
@@ -290,7 +290,7 @@ public class Date
 				return 0;
 		}
 	}
-	
+
 	public static String numToMonth(int num)
 	{
 		switch(num)
@@ -413,3 +413,4 @@ public class Date
     	year++;
     }
 }
+*/
